@@ -15,4 +15,16 @@ public class Car extends Vehicle {
         super.describe();
         System.out.println("I'm a Car je pèse" + weight+ wheels);
     }
+    public void WeightSetter(int NewW) {
+        weight = NewW;
+    }
+    public void WheelsSetter(String NewR) {
+        wheels = NewR;
+    }
+    public int WeightGetter() {
+        return weight;
+    }
+    public String WheelsGetter() {
+        return wheels;
+    }
 }
